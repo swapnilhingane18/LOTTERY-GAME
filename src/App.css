@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App span {
+  font-size: 88px;
+  font-weight: bold;
+}
+
+.number-box {
+  border: 3px solid rgb(143, 172, 182);     /* border around number */
+  padding: 30px 50px;          /* space inside border */
+  font-size: 72px;             /* BIG number */
+  font-weight: bold;
+  border-radius: 12px;         /* rounded corners */
+}
+.generate-button {
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-size: 24px;
+  background-color: #97cc99;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.generate-button:hover {
+  background-color: #45a049;
+}
+.result-message {
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.winning-number {
+  color: green;
+}
+.try-again-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #008CBA;
+  color: rgb(65, 172, 94);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.try-again-button:hover {
+  background-color: #007bb5;
+}
+.instructions {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #130101;
+}
+.instructions b {
+  color: #000;
+}
+.instructions ul {
+  list-style-type: disc;
+  margin: 10px 0 0 20px;
+  text-align: left;
+}
+.instructions li {
+  margin-bottom: 8px;
+}
+.instructions li b {
+  color: #000;
+}
+.instructions li:last-child {
+  margin-bottom: 0;
+}
+.instructions a {
+  color: #008CBA;
+  text-decoration: none;
+}
+.instructions a:hover {
+  text-decoration: underline;
+}

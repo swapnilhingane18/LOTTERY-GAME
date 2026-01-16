@@ -1,0 +1,45 @@
+.lottery-container {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #000000;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 20px;
+  text-align: center;
+}
+
+.ticket-card {
+  border: 1.5px solid #220909;
+  border-radius: 14px;
+  padding: 20px 40px;
+  min-width: 260px;
+}
+
+.ticket-label {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.ticket-number {
+  font-size: 56px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+button {
+  padding: 10px 22px;
+  background: #111827;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: black;
+}
